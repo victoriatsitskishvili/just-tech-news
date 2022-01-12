@@ -8,7 +8,7 @@ class User extends Model {}
 User.init(
     {
       // define an id column
-      id: {
+     id: {
         // use the special Sequelize DataTypes object provide what type of data it is
         type: DataTypes.INTEGER,
         // this is the equivalent of SQL's `NOT NULL` option
